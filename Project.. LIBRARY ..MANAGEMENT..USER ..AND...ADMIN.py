@@ -24,7 +24,7 @@ bk=books.copy()
 while i<4:
     a=input("\nEnter u are admin or user:\n ")
     if a=="user":
-        print("\n.....Enter any of the choices given below.....\n")
+        print("\n.....Enter any of the choices given below....\n")
         print(".....Enter number1 for viewing all book names...")
         print(".....Enter number2  for issuing a books .....")
         print("....Enter number 3 for return the book and check  for any penalty.....")
