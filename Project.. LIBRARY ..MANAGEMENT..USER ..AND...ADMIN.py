@@ -88,7 +88,7 @@ while i<4:
         t1=int(today.strftime("%d"))
         c=int(t1-d1)
         ct=0
-        if c>1 and c<=30 :
+        if c>5 and c<=30 :
             ct=c*20
             print("But u are",c,"days late so u will pay..",ct)
         elif c>30 :
